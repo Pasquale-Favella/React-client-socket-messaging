@@ -1,0 +1,35 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #060606;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 365px;
+  width: 35%;
+  padding: 0;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 319px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

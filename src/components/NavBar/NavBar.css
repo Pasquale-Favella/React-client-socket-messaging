@@ -1,0 +1,9 @@
+img {
+  height: 6px;
+  align-self: center;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+  padding-bottom: 3px;
+}

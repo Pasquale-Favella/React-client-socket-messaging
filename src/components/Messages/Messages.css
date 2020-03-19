@@ -1,0 +1,12 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+
+.css-1qyrjaz {
+  background-color: white;
+  background-image: url("../../icons/arrow-down.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
